@@ -1,0 +1,52 @@
+.face{
+    height: 300px;
+    width: 300px;
+   border-radius: 50%;
+   background-color: #ffa511;
+   transition:margin-top 2s ease-in-out;
+   
+
+}
+div .face{
+    transition: margin-top 2s ease-in;
+}
+.mouth{
+    width: 150px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+
+}
+.left-eye {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+
+
+}
+.right-eye{
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+   
+    top: 70px;
+  
+}
+.face:hover{
+    
+     background-color: red;
+}
+   
+
